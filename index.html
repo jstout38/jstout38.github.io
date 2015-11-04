@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<title>Justin's Portfolio</title>
@@ -13,8 +14,8 @@
 	<section class="container">
 		<section class="row">
 			<header class="col-md-6 text-uppercase">
-				<h1 class="title-super text-thin">Justin Stout</h1>
-				<h4>Web Developer and Librarian</h4>
+				<h1 class="title-super">Justin Stout</h1>
+				<h2><span>&nbsp;Web Developer and Librarian&nbsp;</span></h2>
 			</header>
 			<div class="col-md-6 text-right">
 				<div class="dropdown pull-right">
@@ -25,7 +26,7 @@
 					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="https://www.github.com/jstout38/interactive-resume-project">Resume Project</a></li>
-						<li><a href="https://www.github.com/jstout38/arcade-clone-project">Arcade Clone Project</a></li>
+						<li><a href="https://www.github.com/jstout38/arcade-game-project">Arcade Clone Project</a></li>
 						<li><a href="https://www.github.com/jstout38/website-optimization-project">Optimization Project</a></li>
 						<li><a href="https://www.github.com/jstout38/neighborhood-map-project">Neighborhood Map Project</a></li>
 						<li><a href="https://www.github.com/jstout38/calorie-counter-project">Calorie Counter Project</a></li>
@@ -35,7 +36,6 @@
 				</div>
 			</div>
 		</section>
-
 		<section class="row">
 			<div class="col-md-12">
 				<img class="img-responsive" src="images/Ben-Newman-1920x1200-SMALL.jpg" srcset="images/Ben-Newman-1920x1200-SMALL.jpg 640w, images/Ben-Newman-1920x1200-MEDIUM.jpg 1280w, images/Ben-Newman-1920x1200-LARGE.jpg 1920w" sizes="100vw" alt="City Skyline">
@@ -48,41 +48,35 @@
 		</section>
 		<section class="row">
 			<div class="col-md-12">
-				<h2 class="text-muted">Featured Work</h2>
+				<h2 class="featured">Featured Work</h2>
 			</div>
 		</section>
 		<section class="row text-center">
 			<article class="col-md-4">
 				<img class="img-responsive" src="images/resume-small.jpg" data-toggle="modal" data-target="#project1" alt="resume">
 				<h3>INTERACTIVE RESUME</h3>
-				<p><a href="http://jstout38.github.io/interactive-resume-project">http://jstout38.github.io/interactive-resume-project</a></p>
 			</article>
 			<article class="col-md-4">
 				<img class="img-responsive" src="images/arcadegame-small.jpg" data-toggle="modal" data-target="#project2" alt="arcade game">
 				<h3>ARCADE GAME</h3>
-				<p><a href="http://jstout38.github.io/arcade-game-project">http://jstout38.github.io/arcade-game-project</a></p>
 			</article>
 			<article class="col-md-4">
 				<img class="img-responsive" src="images/optimization-small.jpg" data-toggle="modal" data-target="#project3" alt="website optimization">
 				<h3>WEBSITE OPTIMIZATION</h3>
-				<p><a href="https://jstout38.github.io/website-optimization-project">https://jstout38.github.io/website-optimization-project</a></p>
 			</article>
 		</section>
 		<section class="row text-center">
 			<article class="col-md-4">
 				<img class="img-responsive" src="images/neighborhood-small.jpg" data-toggle="modal" data-target="#project4" alt="neighborhood map">
 				<h3>NEIGHBORHOOD MAP</h3>
-				<p><a href="http://jstout38.github.io/neighborhood-map-project">http://jstout38.github.io/neighborhood-map-project</a></p>
 			</article>
 			<article class="col-md-4">
 				<img class="img-responsive" src="images/calorie-small.jpg" data-toggle="modal" data-target="#project5" alt="calorie counter">
 				<h3>CALORIE COUNTER</h3>
-				<p><a href="http://jstout38.github.io/calorie-counter-project">http://jstout38.github.io/calorie-counter-project</a></p>
 			</article>
 			<article class="col-md-4">
 				<img class="img-responsive" src="images/feedreader-small.jpg" data-toggle="modal" data-target="#project6" alt="feedreader testing">
 				<h3>FEEDREADER TESTING</h3>
-				<p><a href="https://jstout38.github.io/feedreader-testing-project">https://jstout38.github.io/feedreader-testing-project</a></p>
 			</article>
 		</section>
 	</section>
@@ -92,13 +86,19 @@
 		<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
 					<h4 class="modal-title">Interactive Resume</h4>
 				</div>
 				<div class="modal-body">
+					<img class="img-responsive" src="images/resume-small.jpg" alt="resume">
+					<br>
 					<p>An interactive resume built using jQuery.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<div class="text-center">
+						<a class="btn btn-success" href="https://jstout38.github.io/interactive-resume-project" role="button">App</a>
+						<a class="btn btn-success" href="https://www.github.com/jstout38/interactive-resume-project" role="button">Repository</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -109,13 +109,19 @@
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
 					<h4 class="modal-title">Arcade Clone</h4>
 				</div>
 				<div class="modal-body">
+					<img class="img-responsive" src="images/arcadegame-small.jpg" alt="arcade game">
+					<br>
 					<p>A clone of the popular arcade game Frogger built using objective javascript.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<div class="text-center">
+						<a class="btn btn-success" href="http://jstout38.github.io/arcade-game-project" role="button">App</a>
+						<a class="btn btn-success" href="https://www.github.com/jstout38/arcade-game-project" role="button">Repository</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -126,13 +132,19 @@
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
 					<h4 class="modal-title">Website Optimization</h4>
 				</div>
 				<div class="modal-body">
+					<img class="img-responsive" src="images/optimization-small.jpg" alt="website optimization">
+					<br>
 					<p>Optimization of an existing website using CSS animations by identifying inefficient javascript.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<div class="text-center">
+						<a class="btn btn-success" href="https://jstout38.github.io/website-optimization-project" role="button">App</a>
+						<a class="btn btn-success" href="https://www.github.com/jstout38/website-optimization-project" role="button">Repository</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -143,13 +155,19 @@
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
 					<h4 class="modal-title">Neighborhood Map</h4>
 				</div>
 				<div class="modal-body">
+					<img class="img-responsive" src="images/neighborhood-small.jpg" alt="neighborhood map">
+					<br>
 					<p>An interactive neighborhood map of local restaurants built with Knockout and using the Google Maps and Yelp APIs.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<div class="text-center">
+						<a class="btn btn-success" href="http://jstout38.github.io/neighborhood-map-project" role="button">App</a>
+						<a class="btn btn-success" href="https://www.github.com/jstout38/neighborhood-map-project" role="button">Repository</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -160,13 +178,19 @@
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
 					<h4 class="modal-title">Calorie Counter</h4>
 				</div>
 				<div class="modal-body">
+					<img class="img-responsive" src="images/calorie-small.jpg" alt="calorie counter">
+					<br>
 					<p>A fully responsive calorie counter app built with Backbone and using the Nutritionix API.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<div class="text-center">
+						<a class="btn btn-success" href="http://jstout38.github.io/calorie-counter-project" role="button">App</a>
+						<a class="btn btn-success" href="https://www.github.com/jstout38/calorie-counter-project" role="button">Repository</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -177,13 +201,19 @@
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
 					<h4 class="modal-title">Feedreader Testing</h4>
 				</div>
 				<div class="modal-body">
+					<img class="img-responsive" src="images/feedreader-small.jpg" alt="feedreader testing">
+					<br>
 					<p>Testing of an existing RSS feedreader app using Jasmine.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<div class="text-center">
+						<a class="btn btn-success" href="https://jstout38.github.io/feedreader-testing-project" role="button">App</a>
+						<a class="btn btn-success" href="https://www.github.com/jstout38/feedreader-testing-project" role="button">Repository</a>
+					</div>
 				</div>
 			</div>
 		</div>
