@@ -59,6 +59,11 @@ img {
 	h4 {
 		text-align: center;
 	}
+
+	.modal-dialog {
+		width: 90%;
+		margin: auto;
+	}
 }
 
 .modal-dialog {
