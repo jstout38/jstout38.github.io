@@ -46,6 +46,11 @@ img {
 	margin: 20px auto auto auto;
 }
 
+.modal-dialog {
+	width: 50%;
+	margin: auto;
+}
+
 @media screen and (max-width: 991px) {
 	.title-logo {
 		text-align: center;
@@ -65,9 +70,3 @@ img {
 		margin: auto;
 	}
 }
-
-.modal-dialog {
-	width: 50%;
-	margin: auto;
-}
-
