@@ -100,3 +100,7 @@ img {
 	color: white;
 	background-color: orange;
 }
+
+li, ul {
+	list-style-type: none;
+}
