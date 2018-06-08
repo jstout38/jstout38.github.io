@@ -70,3 +70,33 @@ img {
 		margin: auto;
 	}
 }
+
+.node {
+	color: white;
+	background-color: blue;
+}
+
+.ruby {
+	color: white;
+	background-color: red;
+}
+
+.python {
+	color: white;
+	background-color: brown;
+}
+
+.jquery {
+	color: white;
+	background-color: black;
+}
+
+.jasmine {
+	color: white;
+	background-color: purple;
+}
+
+.backbone {
+	color: white;
+	background-color: orange;
+}
